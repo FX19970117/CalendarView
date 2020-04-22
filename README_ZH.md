@@ -14,7 +14,7 @@ Android上一个非常优雅、高度自定义、性能高效的日历控件，�
 
 ### support使用版本
 ```
-implementation 'com.haibin:calendarview:3.6.8
+implementation 'com.haibin:calendarview:3.6.8'
 ```
 
 ### Androidx使用版本
