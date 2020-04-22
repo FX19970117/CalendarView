@@ -1,5 +1,5 @@
 # CalenderView
-Android上一个优雅、高度自定义、性能高效的日历控件，完美支持周视图，支持标记、自定义颜色、农历等，任意控制月视图显示、任意日期拦截条件、自定义周起始等。Canvas绘制，极速性能、占用内存低，，支持简单定制即可实现任意自定义布局、自定义UI，支持收缩展开、性能非常高效，
+Android上一个非常优雅、高度自定义、性能高效的日历控件，完美支持周视图，支持标记、自定义颜色、农历等，任意控制月视图显示、任意日期拦截条件、自定义周起始等。Canvas绘制，极速性能、占用内存低，，支持简单定制即可实现任意自定义布局、自定义UI，支持收缩展开、性能非常高效，
 这个控件内存和效率优势相当明显，而且真正做到收缩+展开，适配多种场景，支持同时多种颜色标记日历事务，支持多点触控，你真的想不到日历还可以如此优雅！更多参考用法请移步Demo，Demo实现了一些精美的自定义效果，用法仅供参考。
 
 ### 插拔式设计
@@ -10,14 +10,14 @@ Android上一个优雅、高度自定义、性能高效的日历控件，完美�
 
 [**详细介绍**](https://github.com/huanghaibin-dev/CalendarView/blob/master/QUESTION_ZH.md)
 
-### AndroidStudio v3.5+
+### AndroidStudio请使用3.5以上版本
 
-### support版本使用
+### support使用次版本
 ```
-implementation 'com.haibin:calendarview:3.6.8
+implementation 'com.haibin:calendarview:3.6.86
 ```
 
-### Androidx版本使用
+### Androidx使用次版本
 ```
 implementation 'com.haibin:calendarview:3.6.9'
 ```
@@ -26,7 +26,7 @@ implementation 'com.haibin:calendarview:3.6.9'
 <dependency>
   <groupId>com.haibin</groupId>
   <artifactId>calendarview</artifactId>
-  <version>3.6.6</version>
+  <version>3.6.9</version>
   <type>pom</type>
 </dependency>
 ```
@@ -57,19 +57,19 @@ implementation 'com.haibin:calendarview:3.6.9'
 
 ### 效果预览
 ### 功能性展示
-<img src="https://github.com/huanghaibin-dev/CalendarView/blob/master/app/src/main/assets/main_zh_func.png" height="650"/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="https://github.com/huanghaibin-dev/CalendarView/blob/master/app/src/main/assets/main_zh_list.png" height="650"/>
+<img src="https://images.gitee.com/uploads/images/2019/0916/115822_9304a298_494015.png" height="650"/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="https://images.gitee.com/uploads/images/2019/0916/115822_53280fd4_494015.png" height="650"/>
 ### 年视图和范围选择风格
-<img src="https://github.com/huanghaibin-dev/CalendarView/blob/master/app/src/main/assets/year_view.png" height="650"/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="https://github.com/huanghaibin-dev/CalendarView/blob/master/app/src/main/assets/range.png" height="650"/>
+<img src="https://images.gitee.com/uploads/images/2019/0916/115822_b8ba3440_494015.png" height="650"/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="https://images.gitee.com/uploads/images/2019/0916/115824_4495a731_494015.png" height="650"/>
 ### 中国式变态需求风格
-<img src="https://github.com/huanghaibin-dev/CalendarView/blob/master/app/src/main/assets/custom_expand.png" height="650"/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="https://github.com/huanghaibin-dev/CalendarView/blob/master/app/src/main/assets/custom_shrink.png" height="650"/>
+<img src="https://images.gitee.com/uploads/images/2019/0916/115823_0911e70b_494015.png" height="650"/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="https://gitee.com/huanghaibin_dev/CalendarView/raw/master/app/src/main/assets/custom_shrink.png" height="650"/>
 ### 收缩展开的魅族风格效果a
-<img src="https://github.com/huanghaibin-dev/CalendarView/blob/master/app/src/main/assets/meizu_expand.png" height="650"/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="https://github.com/huanghaibin-dev/CalendarView/blob/master/app/src/main/assets/meizu_shrink.png" height="650"/>
+<img src="https://images.gitee.com/uploads/images/2019/0916/115838_3d7247c7_494015.png" height="650"/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="https://images.gitee.com/uploads/images/2019/0916/115840_2f01a1c7_494015.png" height="650"/>
 ### 全屏和多彩风格
-<img src="https://github.com/huanghaibin-dev/CalendarView/blob/master/app/src/main/assets/full_calendar.png" height="650"/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="https://github.com/huanghaibin-dev/CalendarView/blob/master/app/src/main/assets/color_expand.png" height="650"/>
+<img src="https://images.gitee.com/uploads/images/2019/0916/115835_66202b50_494015.png" height="650"/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="https://images.gitee.com/uploads/images/2019/0916/115838_d476881d_494015.png" height="650"/>
 ### 进度条风格
-<img src="https://github.com/huanghaibin-dev/CalendarView/blob/master/app/src/main/assets/progress_expand.png" height="650"/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="https://github.com/huanghaibin-dev/CalendarView/blob/master/app/src/main/assets/progress_shrink.png" height="650"/>
+<img src="https://images.gitee.com/uploads/images/2019/0916/115845_c5368446_494015.png" height="650"/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="https://images.gitee.com/uploads/images/2019/0916/115841_16e23a8c_494015.png" height="650"/>
 ### 星系图风格
-<img src="https://github.com/huanghaibin-dev/CalendarView/blob/master/app/src/main/assets/solar_expand.png" height="650"/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="https://github.com/huanghaibin-dev/CalendarView/blob/master/app/src/main/assets/solar_shrink.png" height="650"/>
+<img src="https://images.gitee.com/uploads/images/2019/0916/115847_dbc8cc65_494015.png" height="650"/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="https://images.gitee.com/uploads/images/2019/0916/115853_b502b409_494015.png" height="650"/>
 
 ### 特别的，请注意不要复制这三个路径，自行替换您自己的自定义路径
 
