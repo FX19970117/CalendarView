@@ -12,12 +12,12 @@ Android上一个非常优雅、高度自定义、性能高效的日历控件，�
 
 ### AndroidStudio请使用3.5以上版本
 
-### support使用次版本
+### support使用版本
 ```
-implementation 'com.haibin:calendarview:3.6.86
+implementation 'com.haibin:calendarview:3.6.8
 ```
 
-### Androidx使用次版本
+### Androidx使用版本
 ```
 implementation 'com.haibin:calendarview:3.6.9'
 ```
